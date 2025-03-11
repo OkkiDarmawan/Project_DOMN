@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('assets/download.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5); /* Efek overlay agar teks lebih jelas */
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+}
